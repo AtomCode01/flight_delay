@@ -10,7 +10,6 @@
 - [Docker Configuration 🐳](#docker-configuration)
 - [MVC Architecture 🏗️](#mvc-architecture)
 - [Using the App](#using-the-app)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Introduction 🚀
@@ -130,7 +129,7 @@ Visit http://localhost:8501 in your web browser to use the app.
 
 In this section in Streamlit, you can make flight delay predictions with ease. Just select the input values and let the app do the rest.
 
-![Prediction Dashboard](/assets/Prediction-dashboard.PNG)
+<!-- ![Prediction Dashboard](/assets/Prediction-dashboard.PNG) -->
 
 ## Monitor Data and Model
 
@@ -152,7 +151,7 @@ Choose the types of reports you want to generate:
 
 Once you hit the "Submit" button, the app will fetch your current data and generate these insightful reports for you.
 
-![Monitor Data and Model](assets/Monitor-data-and-model.PNG)
+<!-- ![Monitor Data and Model](assets/Monitor-data-and-model.PNG) -->
 
 ## Generating Reports
 
@@ -162,26 +161,19 @@ The app will generate various reports based on your selections:
 - **Target Drift Report**: Identify any drift in your target variable.
 - **Data Drift Report**: Discover any changes in your data distribution.
 - **Data Quality Report**: This one takes a bit longer (around 10 minutes) because it performs a comprehensive analysis. You can explore other reports if you're short on time.
-
+<!-- 
 ![Model Performance Report](assets/Model-performance-report.PNG)
 
 ![Target Drift](assets/Target-drift.PNG)
 
 ![Data Drift](assets/Data-drift.PNG)
 
-![Data Quality](assets/Data-Quality.PNG)
+![Data Quality](assets/Data-Quality.PNG) -->
 
 
 
 
 That's it! Start making predictions and monitor your data and model like a pro. Happy flying! ✈️📊🚀
 
-## Contributing 🤝
-We welcome contributions! If you want to improve the project, feel free to create a pull request or open an issue. Please follow our Contribution Guidelines.
-
 ## License 📜
 This project is open-source and is licensed under the [MIT License](LICENSE.md). You can find the full text of the license in the [LICENSE.md](LICENSE.md) file. 🚀
-
-Feel free to use, modify, and distribute this project as you see fit while retaining proper attribution. 📊
-
-This open-source project is shared with the hope that it contributes to the data science and machine learning community. Happy coding! 🤝
