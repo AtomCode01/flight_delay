@@ -47,8 +47,8 @@ Before starting, ensure you have the following prerequisites:
 1. Clone this repository to your local machine.
 
     ```bash
-    git clone https://github.com/yourusername/flight-delay-prediction.git
-    cd flight-delay-prediction
+    git clone https://github.com/AtomCode01/flight_delay.git
+    cd flight_delay
     ```
 
 2. Install the necessary Python packages.
@@ -64,7 +64,7 @@ In the data preprocessing step, we clean and transform the dataset for use in ma
 To replicate this step, refer to the `data_preprocessing.py` script.
 
 ```bash
-python data_preprocessing.py
+python src/data_preprocessing.py
 ```
 
 ## Model Building and Evaluation 🧪
@@ -73,7 +73,7 @@ We experiment with different machine learning models and evaluate their performa
 To replicate this step, refer to the model_evaluation.py script.
 
 ```bash
-python model_evaluation.py
+python src/model_evaluation.py
 ```
 
 ### Docker Configuration 🐳
@@ -85,8 +85,8 @@ Docker is an essential tool for packaging and distributing applications. Here's 
 2. **Running the Docker Container:** Follow these steps to build the Docker image and run a container:
 
     ```bash
-    docker build -t flight-delay-prediction .
-    docker run -p 8501:8501 flight-delay-prediction
+    docker build -t flight-delay .
+    docker run -p 8501:8501 flight-delay
     ```
 
 3. **Best Practices:** Consider best practices such as data volume management, security, and image optimization.
